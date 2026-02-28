@@ -14,7 +14,7 @@
         <number name="createdDate" type="Long">1771715739247</number>
         <value name="lastModifiedBy">Mir.HussainAli@ibm.com</value>
         <value name="lastModifiedByUserId">9744588ad12144aaab9f885cd23f8211</value>
-        <number name="lastModifiedDate" type="Long">1772263064326</number>
+        <number name="lastModifiedDate" type="Long">1772263102263</number>
       </record>
       <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
@@ -238,7 +238,7 @@
             <value name="field_name">qty</value>
             <value name="field_type">object</value>
             <value name="field_dim">0</value>
-            <value name="wrapper_type">java.lang.Long</value>
+            <value name="wrapper_type">java.lang.Integer</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
@@ -252,7 +252,7 @@
             <value name="field_name">unitPrice</value>
             <value name="field_type">object</value>
             <value name="field_dim">0</value>
-            <value name="wrapper_type">java.lang.Double</value>
+            <value name="wrapper_type">java.lang.Float</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
@@ -266,7 +266,7 @@
             <value name="field_name">lineTotal</value>
             <value name="field_type">object</value>
             <value name="field_dim">0</value>
-            <value name="wrapper_type">java.lang.Double</value>
+            <value name="wrapper_type">java.lang.Float</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
@@ -309,7 +309,7 @@
             <value name="field_name">shippingAmount</value>
             <value name="field_type">object</value>
             <value name="field_dim">0</value>
-            <value name="wrapper_type">java.lang.Double</value>
+            <value name="wrapper_type">java.lang.Float</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
@@ -326,7 +326,7 @@
         <value name="field_name">totalAmount</value>
         <value name="field_type">object</value>
         <value name="field_dim">0</value>
-        <value name="wrapper_type">java.lang.Double</value>
+        <value name="wrapper_type">java.lang.Float</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -346,5 +346,6 @@
       </record>
     </array>
     <value name="modifiable">true</value>
+    <value name="updateRSD">true</value>
   </record>
 </Values>
